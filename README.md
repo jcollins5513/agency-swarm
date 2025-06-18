@@ -107,7 +107,7 @@ Define your custom tools by extending the `BaseTool` class:
    agency-swarm import-agent --name "Devid" --destination "./"
    ```
 
-   This will import Devid (Software Developer) Agent locally, including all source code files, so you have full control over your system. Currently, available agents are: `Devid`, `BrowsingAgent`.
+   This will import Devid (Software Developer) Agent locally, including all source code files, so you have full control over your system. Available agent templates include `Devid`, `BrowsingAgent`, `ContentCreator`, `SchedulerAgent`, `VoiceAgent`, `LeadResponseAgent`, and `MarketingAgent`.
 
 
 4. **Define Agency Communication Flows**:
