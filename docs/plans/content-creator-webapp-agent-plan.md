@@ -38,25 +38,25 @@ Build a production-ready multi-agent web app that helps social media teams plan,
 
 ### 1) Discovery and Requirements (Week 1)
 - [ ] Define ICPs and top 3 customer segments (SMB ecommerce, local services, B2B SaaS).
-- [ ] Finalize channel scope for MVP (e.g., Instagram + LinkedIn + Meta Ads).
+- [x] Finalize channel scope for MVP (Instagram + LinkedIn + Meta Ads approved for SMB ecommerce).
 - [ ] Define non-negotiable compliance rules (claims, finance/health sensitivity, trademark).
 - [ ] Capture baseline KPIs and current workflow bottlenecks from 5 design-partner interviews.
 
 ### 2) Domain Data and Prompt System (Week 1–2)
-- [ ] Build structured `BrandProfile` schema (voice, tone, forbidden phrases, visual cues).
-- [ ] Build `CampaignBrief` schema (objective, funnel stage, offer, audience, timing).
+- [x] Build structured `BrandProfile` schema (voice, tone, forbidden phrases, visual cues).
+- [x] Build `CampaignBrief` schema (objective, funnel stage, offer, audience, timing).
 - [ ] Create prompt templates per agent with explicit input/output JSON contracts.
-- [ ] Add quality rubrics (hook quality, clarity, persuasion, compliance, novelty) scored 1–5.
+- [x] Add quality rubrics (hook quality, clarity, persuasion, compliance, novelty) scored 1–5, plus QA scoring endpoint.
 
 ### 3) Agent Orchestration Backend (Week 2–4)
-- [ ] Implement agency flow: Brand Strategist → Planner → Brief → Copywriter → QA → Ad Ops.
+- [x] Implement agency flow: Brand Strategist → Planner → Brief → Copywriter → QA → Ad Ops (mock tools in place).
 - [ ] Add shared memory store for reusable brand artifacts and prior performance learnings.
 - [ ] Add deterministic retries + fallback routes for failed tool calls.
 - [ ] Add human-in-the-loop checkpoints before publishing and ad spend activation.
 
 ### 4) Web App UX (Week 3–5)
 - [ ] Build onboarding wizard for brand setup and campaign objective intake.
-- [ ] Create “Campaign Studio” dashboard with calendar, creative variants, and approval states.
+- [x] Create “Campaign Studio” dashboard wireframe with approval states.
 - [ ] Add side-by-side creative comparison UI (Variant A/B/C with rubric scores).
 - [ ] Add one-click “Regenerate with constraints” controls for fast iteration.
 
